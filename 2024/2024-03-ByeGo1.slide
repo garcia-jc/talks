@@ -1,0 +1,49 @@
+# Go 2 is here, long live Go 1 
+JC Garcia @ Kunai Engineering Talks
+19 Mar 2024
+Tags: go, golang, go1, go2
+Summary: Talk about Go 1.21 and 1.22 changes that breaks the Go 1 promise of compatibility
+OldURL: <empty>
+
+## About me
+
+Software engineering, team lead, management
+* Fintech industry in LATAM and US
+* Backend engineering
+* Cloud-native development
+* Cloud migrations
+* Gopher since Go 1.5 ( 17 releases ago, around 8.5 yoe)
+
+
+## The Go 1 promise of compatibility
+
+When Go 1 was released in March 2012, it introduced a big commitment to developers: 
+* If you write code for 1.x, future 1.y releases will compile your code
+* If you use the standard library in Go 1.x, the API will be available in the future
+* TL,DR: Once a new Go version is released, you can use it without code changes! 🤯
+
+.link https://go.dev/doc/go1compat The future of Go programs
+
+## Updating from Go 1.5 to Go 1.22
+
+.play go15.go
+
+
+## Either die as a hero or live long enough...
+
+To work on a Java migration project.
+
+* JRE 1.6 -> 8 (Optionals, Streams, Lambdas) (2015)
+* JRE 8 -> 11 (Removing javax from JRE, Modules, Type inference) (2019)
+* JRE 11 -> JRE 17 (Record types, Switch expressions, Text blocks) (2021)
+
+
+.link https://programminghints.com/2015/12/moving-from-java-6-to-java-8/ Java 6 -> Java 8 migrations
+
+.link https://www.infogain.com/blog/java-8-to-11-a-migration-story/ Java 8 -> Java 11 migration
+
+.link https://mydeveloperplanet.com/2021/09/28/whats-new-between-java-11-and-java-17/ Java 11 -> Java 17 migration
+
+
+
+## Never say never 
