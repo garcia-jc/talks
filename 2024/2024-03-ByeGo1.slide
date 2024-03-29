@@ -7,7 +7,7 @@ OldURL: <empty>
 
 ## About me
 
-Software engineering, team lead, management
+Software eng, tech leadership, engineering management
 * Fintech industry in LATAM and US
 * Backend engineering
 * Cloud-native development
@@ -22,12 +22,36 @@ When Go 1 was released in March 2012, it introduced a big commitment to develope
 * If you use the standard library in Go 1.x, the API will be available in the future
 * TL,DR: Once a new Go version is released, you can use it without code changes! 🤯
 
+.image ./motorcycle.svg _ 300
+
 .link https://go.dev/doc/go1compat The future of Go programs
 
+## Do not cite the Deep Magic to me, I was there
+
+.image beboring.png 450 _
+
+
+## How is it looking now
+
+* Go 1.18 - Generics 
+* Go 1.19 - Generics improvements
+* Go 1.20 - Generics improvements
+* Go 1.21 - min,max,clear; fix loopvar declaration
+* Go 1.22 - math/rand/v2, range over integers
+* Go 1.23 - range over functions
+
+
 ## Updating from Go 1.5 to Go 1.22
+Boring is good
 
 .play go15.go
 
+## Is never too late to fix your mistakes
+.play broken.go
+
+## Exciting times! Go to polish your code 
+.play isnotsobad.go
+.image party.png 260 _
 
 ## Either die as a hero or live long enough...
 
@@ -36,7 +60,9 @@ To work on a Java migration project.
 * JRE 1.6 -> 8 (Optionals, Streams, Lambdas) (2015)
 * JRE 8 -> 11 (Removing javax from JRE, Modules, Type inference) (2019)
 * JRE 11 -> JRE 17 (Record types, Switch expressions, Text blocks) (2021)
+* Python 2 vs Python 3 
 
+Are those migration efforts that bad?   
 
 .link https://programminghints.com/2015/12/moving-from-java-6-to-java-8/ Java 6 -> Java 8 migrations
 
@@ -46,4 +72,7 @@ To work on a Java migration project.
 
 
 
-## Never say never 
+## Sources
+.link https://go.dev/images/gophers/motorcycle.svg Biker gopher
+.link https://bitfieldconsulting.com/golang/scripting Excited Gopher
+.link https://www.youtube.com/watch?v=4Dr8FXs9aJM Gophercon India 2016 - Introducing Go 1.6: asymptotically approaching boring by Brad Fitzpatrick
