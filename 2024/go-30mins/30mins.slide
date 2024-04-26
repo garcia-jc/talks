@@ -17,7 +17,9 @@ OldURL: <empty>
 * Fácil de entender y usar 
 * Familiar a lenguajes como C
 * Rápido
-* Preparado para trabajo real
+* Preparado para trabajo concurrente
+
+.image gophers-work.jpeg 300 _
 
 ## Por qué aprender Go 
 
@@ -37,6 +39,20 @@ OldURL: <empty>
 ## Programación orientada a objetos 
 
 .play oo.go
+
+
+## ¿Programación orientada a objetos?
+
+.play oo2.go
+
+
+## ¿Programación orientada a objetos? (2)
+
+.link https://go.dev/play/p/LDbv4GsWPrD go.dev/play
+
+## Programación funcional
+
+.link https://go.dev/play/p/uwKrT-O7P68 golang.org/play
 
 ## Go becomes public: 2009
 
@@ -58,3 +74,4 @@ OldURL: <empty>
 
 .link https://spring.io/blog/2009/02/23/programming-language-popularity 2009 Language popularity 
 .link https://www.tiobe.com/tiobe-index/ 2024 TIOBE index
+.link https://go.dev/talks/2012/waza.slide Concurreny is not parallelism
