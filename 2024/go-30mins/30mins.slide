@@ -1,0 +1,60 @@
+# Go en 30 minutos
+JC Garcia @ GophersMX
+25 Apr 2024
+Tags: go, golang, intro,
+Summary: Introducción a Go y por qué aprender Go 
+OldURL: <empty>
+
+## En el inicio, "sólo había C++"
+
+* Tiempos lentos de compilación
+* Soporte pobre para compilar entre plataformas
+* Difícil de actualizar (C++11 -> C++21), (Java 6 -> Java 17)
+* Difícil de dominar
+
+## Objetivos de Go 
+
+* Fácil de entender y usar 
+* Familiar a lenguajes como C
+* Rápido
+* Preparado para trabajo real
+
+## Por qué aprender Go 
+
+* Una herramienta "moderna" (Rust)
+* Experimentar con concurrencia (Elixir, Gleam, Erlang)
+* Construir servicios HTTP de alto rendimiento (Java, C#)
+* Interés en lenguajes fuertemente tipados (Python, Ruby, JS)
+* Facilitar la colaboración y contribución en los proyectos
+
+## Go es:
+
+.play code1.go
+
+.link https://pkg.go.dev/fmt?utm_source=godoc#Println Librería estándar
+
+
+## Programación orientada a objetos 
+
+.play oo.go
+
+## Go becomes public: 2009
+
+.image tiobe-feb2009.png 500 _
+
+## Fast forward: 2024
+
+.image tiobe-2024.png 500 _
+
+
+## Dónde seguir aprendiendo
+
+.link https://go.dev/learn
+.link https://go.dev/tour
+.link https://gobyexample.com 
+
+
+## Referencias 
+
+.link https://spring.io/blog/2009/02/23/programming-language-popularity 2009 Language popularity 
+.link https://www.tiobe.com/tiobe-index/ 2024 TIOBE index
